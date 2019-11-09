@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter, Website } from './Icons';
+import { Twitter } from './Icons';
 //TODO: make it dynamic
 
 const SocialNav = () => (
@@ -17,8 +17,7 @@ const SocialNav = () => (
             <span className="screen-reader-text">Twitter account</span>
             <Twitter />
           </a>
-        </li>
-       
+        </li>  
       </ul>
     </div>
   </nav>
