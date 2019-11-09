@@ -5,7 +5,7 @@ module.exports = {
     author: `@benUNC`,
     wordPressUrl: `http://www.wpsteward.com`,
   },
-  __experimentalThemes: [
+plugins: [
     {
       resolve: 'gatsby-theme-tabor',
       options: { wordPressUrl: `http://gatsby.wpsteward.com` },

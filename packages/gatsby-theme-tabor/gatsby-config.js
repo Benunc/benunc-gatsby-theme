@@ -22,7 +22,7 @@ module.exports = ({ wordPressUrl }) => ({
       options: {
         postCssPlugins: [
           autoprefixer({
-            browsers: ["last 2 versions"],
+            overrideBrowserslist: ["last 2 versions"],
           }),
         ],
       },
