@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import wpgraphqlLogo from '../images/wpgraphql-logo.png';
+import wpgraphqlLogo from '../images/WPStew.png';
 
 const Logo = ({ data }) => (
   <Link to="/" className="custom-logo-link site-logo" rel="home" itemProp="url">

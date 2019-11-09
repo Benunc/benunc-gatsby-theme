@@ -5,23 +5,10 @@ const Subscribe = () => (
     <div className="widget-area__inner">
       <div className="widget-area__wrapper">
         <aside className="widget widget_text clearfix">
-          <h6 className="h2">Subscribe Now</h6>
+          <h6 className="h2">Compelling after-post Content</h6>
           <div className="textwidget">
             <p>
-              This is where you’d add your
-              <a href="http://shareasale.com/r.cfm?b=601672&amp;u=1143612&amp;m=49337&amp;urllink=&amp;afftrack=">
-                OptinMonster
-              </a>
-              , or MailChimp for WordPress widgets. I don’t want to give you the
-              API credentials to my OptinMonster account now do I.{' '}
-              <img
-                draggable="false"
-                className="emoji"
-                alt="🙂"
-                src="https://s.w.org/images/core/emoji/11.2.0/svg/1f642.svg"
-                width="20px"
-                height="20px"
-              />
+              This area right here is super useful, someday. For now, it's literally a placeholder.
             </p>
           </div>
         </aside>

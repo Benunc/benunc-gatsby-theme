@@ -18,11 +18,11 @@ const Footer = () => (
           itemScope=""
           itemType="http://schema.org/copyrightHolder"
         >
-          Tabor Gatsby Theme
+          Forked from the Tabor Gatsby Theme
         </span>
       </span>
       <span className="site-theme  ">
-        <a href="https://gatsbywpthemes.com/">Powered by Gatsby WP Themes</a>
+        <a href="https://gatsbywpthemes.com/">Super-Thrilled to be Powered by Gatsby WP Themes</a>
       </span>
     </div>
   </footer>
