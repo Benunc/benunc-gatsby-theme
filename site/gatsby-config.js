@@ -3,12 +3,12 @@ module.exports = {
     title: `Gatsby Starter`,
     description: `Gatsby starter site `,
     author: `@benUNC`,
-    wordPressUrl: `http://www.wpsteward.com`,
+    wordPressUrl: `https://www.wpsteward.com`,
   },
 plugins: [
     {
       resolve: 'gatsby-theme-tabor',
-      options: { wordPressUrl: `http://gatsby.wpsteward.com` },
+      options: { wordPressUrl: `https://gatsby.wpsteward.com` },
     },
   ],
 };
