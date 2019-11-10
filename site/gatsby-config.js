@@ -3,7 +3,7 @@ module.exports = {
     title: `Gatsby Starter`,
     description: `Gatsby starter site `,
     author: `@benUNC`,
-    wordPressUrl: `https://www.wpsteward.com`,
+    wordPressUrl: `https://gatsby.wpsteward.com`,
   },
 plugins: [
     {

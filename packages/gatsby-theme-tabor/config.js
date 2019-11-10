@@ -7,7 +7,7 @@
  * @type {{wordPressUrl: string}}
  */
 const config = {
-  wordPressUrl: `http://gatsby.wpsteward.com`,
+  wordPressUrl: `https://gatsby.wpsteward.com`,
 }
 
 module.exports = config

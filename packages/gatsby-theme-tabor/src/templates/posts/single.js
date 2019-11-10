@@ -49,11 +49,11 @@ const Post = ({ pageContext: post }) => {
             <a
               className="comments-trigger button button--mobile-fullwidth center-align"
               id="comments-trigger"
-              href="#" //TODO: setup the comment functionality
+              href={`https://twitter.com/intent/tweet?url=${`${post.link}`}&text=Re%3A%20this%20article%2C%20here%27s%20my%20comment&related=thewpsteward`} 
             >
               <span className="display-none">Close Comments</span>
 
-              <span className="display-inline-block">Leave a Comment</span>
+              <span className="display-inline-block">Comment on Twitter</span>
             </a>
           </div>
           {/* TODO: add taxonomies to a new component */}
