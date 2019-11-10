@@ -8,6 +8,7 @@ const PostTemplateFragment = `
     featuredImage {
       sourceUrl
       title
+      altText
     }
     categories {
       nodes {
@@ -46,6 +47,7 @@ const BlogPreviewFragment = `
     featuredImage {
       sourceUrl
       title
+      altText
     }
     author {
       name

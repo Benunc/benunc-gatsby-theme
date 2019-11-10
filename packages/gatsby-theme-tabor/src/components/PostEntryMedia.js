@@ -24,7 +24,7 @@ const PostEntryMedia = ({ post, location }) => (
         <figure>
           <img
             src={post.featuredImage.sourceUrl}
-            alt={post.title}
+            alt={post.featuredImage.altText}
             className="lazyload initial loaded"
             sizes="90vw, (min-width: 600px) 90vw, 60vw"
           />
