@@ -6,7 +6,7 @@ import PostEntryMeta from '../../components/PostEntryMeta';
 import PostEntryTitle from '../../components/PostEntryTitle';
 import PostEntryMedia from '../../components/PostEntryMedia';
 import EngagementBar from '../../components/EngagementBar';
-import SEO from '../../components/SEO';
+import Seo from '../../components/Seo';
 
 const renderTermNodes = (nodes, termType) => (
   <span className="cat-links header-font extra-small medium smooth dark-gray">
@@ -28,7 +28,7 @@ const renderTerms = (categoryNodes = [], tagNodes = []) => (
 const Post = ({ pageContext: post }) => {
   return (
     <Layout>
-      <SEO title={`${post.title}`} />
+      <Seo title={`${post.title}`} />
       <div className="post-wrapper">
         <header className="entry-header top-spacer bottom-spacer">
           <PostEntryTitle

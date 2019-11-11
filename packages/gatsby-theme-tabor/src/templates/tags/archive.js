@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import PostEntry from '../../components/PostEntry';
 import HeaderArchive from '../../components/HeaderArchive';
-import SEO from '../../components/SEO';
+import Seo from '../../components/Seo';
 
 const SingleTag = props => {
   const {
@@ -11,7 +11,7 @@ const SingleTag = props => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title={`Tag - ${name}`}
         description={`A collection of posts from the ${name} tag.`}
       />
