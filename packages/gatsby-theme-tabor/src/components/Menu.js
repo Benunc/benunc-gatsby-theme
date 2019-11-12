@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
-import { createLocalLink } from '../utils';
+import { StaticQuery, graphql } from 'gatsby';
 import { BodyClass } from 'react-extras';
 import MenuToggle from './MenuToggle';
 
@@ -31,15 +30,9 @@ const MENU_QUERY = graphql`
 `;
 
 const renderLink = menuItem =>
-  menuItem.connectedObject.__typename === 'WPGraphQL_MenuItem' ? (
-    <a href={menuItem.url} target="_blank" rel="noopener noreferrer">
+    <a href={menuItem.url} >
       {menuItem.label}
     </a>
-  ) : createLocalLink(menuItem.url) ? (
-    <Link to={createLocalLink(menuItem.url)}>{menuItem.label}</Link>
-  ) : (
-    menuItem.label
-  );
 
 const renderMenuItem = menuItem => {
   if (menuItem.childItems && menuItem.childItems.nodes.length) {
