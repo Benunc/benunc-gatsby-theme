@@ -21,7 +21,7 @@ const POSTS_QUERY = graphql`
 const findNextPost = (post, data) => {
   const posts = data.wpgraphql.posts.nodes
   const currentPostIndex = posts.findIndex(item => item.id === post.id)
-  return posts[currentPostIndex + 1]
+  return posts[currentPostIndex - 1]
 }
 
 const NextPost = ({ post }) => (
