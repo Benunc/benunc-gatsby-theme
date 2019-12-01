@@ -12,12 +12,15 @@ query GET_POSTS($first:Int $after:String) {
   wpgraphql {
     # Ask for posts
     posts(
-        # Ask for the first XX number of posts
-        first: $first
+      #order the posts oldest to newest
+      where: {orderby: {field: DATE, order: ASC}}
 
-        # A Cursor to where in the dataset our query should start
-        # and get items _after_ that point
-        after:$after
+      # Ask for the first XX number of posts
+      first: $first
+
+      # A Cursor to where in the dataset our query should start
+      # and get items _after_ that point
+      after:$after
     ) {
         # In response, we'll want pageInfo so we know if we need
         # to fetch more posts or not.

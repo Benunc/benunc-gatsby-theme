@@ -5,6 +5,7 @@ const PostTemplateFragment = `
     title
     content
     link
+    slug
     featuredImage {
       sourceUrl
       title
